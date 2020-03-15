@@ -18,10 +18,10 @@ class MyNavbar extends Component {
 
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav>
-              <Link to="beach-resort/" className="mx-4">
+              <Link to="/" className="mx-4">
                 Home
               </Link>
-              <Link to="beach-resort/rooms" className="mx-4">
+              <Link to="/rooms" className="mx-4">
                 Rooms
               </Link>
             </Nav>
