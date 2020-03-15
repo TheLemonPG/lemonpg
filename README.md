@@ -1,5 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+To visit the page click https://amro-kamal.github.io/beach-resort/
 ## Available Scripts
 
 In the project directory, you can run:
