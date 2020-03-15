@@ -17,7 +17,7 @@ const Home = ({ featuredRooms }) => {
         title="Luxurious Rooms"
         subtitle="Deluxe Rooms Starting at 299$"
         bg={defaultBog}
-        btn={<CustomButton txt="Our Rooms" to="rooms" />}
+        btn={<CustomButton txt="Our Rooms" to="beach-resort/rooms" />}
       />
 
       <div className="services">
@@ -80,7 +80,7 @@ const Home = ({ featuredRooms }) => {
                   img={room.fields.images[0].fields.file.url}
                   price={room.fields.price}
                   name={room.fields.name}
-                  roomId={"rooms/" + room.sys.id}
+                  roomId={"beach-resort/rooms/" + room.sys.id}
                 />
               );
             })}

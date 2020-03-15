@@ -90,7 +90,7 @@ class Rooms extends Component {
           title="Our Rooms"
           bg={room1}
           btn={
-            <Link to="/">
+            <Link to="/beach-resort">
               <Button>Return Home</Button>
             </Link>
           }
@@ -240,7 +240,7 @@ class Rooms extends Component {
                     img={room.fields.images[0].fields.file.url}
                     price={room.fields.price}
                     name={room.fields.name}
-                    roomId={"rooms/" + room.sys.id}
+                    roomId={"beach-resort/rooms/" + room.sys.id}
                   />
                 );
               })}
