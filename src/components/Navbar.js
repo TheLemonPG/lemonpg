@@ -11,17 +11,17 @@ class MyNavbar extends Component {
     return (
       <Navbar bg="gray" expand="lg" className="sticky-top mynavbar">
         <div className="container">
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="/beach-resort">
             <img src={logo} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav>
-              <Link to="/" className="mx-4">
+              <Link to="/beach-resort" className="mx-4">
                 Home
               </Link>
-              <Link to="/rooms" className="mx-4">
+              <Link to="/beach-resort/rooms" className="mx-4">
                 Rooms
               </Link>
             </Nav>
