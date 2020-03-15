@@ -1,4 +1,6 @@
+This is a single page app built in React
 To visit the page click https://amro-kamal.github.io/beach-resort/
+
 ## Available Scripts
 
 In the project directory, you can run:
