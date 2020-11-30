@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Card, Col, Row } from "react-bootstrap";
 import room_4_img from "../images/room-4.jpeg";
 import CustomButton from "../components/button";
-import { Link } from "react-router-dom";
 
 import "../css/roomItem.css";
 
