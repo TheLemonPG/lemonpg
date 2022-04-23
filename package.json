@@ -1,6 +1,6 @@
 {
-  "homepage": "https://thelemonpg.github.io/",
-  
+  "homepage": "https://thelemonpg.github.io/beach-resort",
+  "name": "beach-resort",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
