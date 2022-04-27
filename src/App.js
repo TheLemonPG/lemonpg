@@ -55,17 +55,17 @@ class App extends Component {
         <Switch>
           <Route
             exact
-            path="/beach-resort"
+            path="/lemonpg"
             render={() => <Home featuredRooms={featuredRooms} />}
           />
           <Route
             exact
-            path="/beach-resort/rooms"
+            path="/lemonpg/rooms"
             render={() => <Rooms Rooms={this.state.myItems} />}
           />
           <Route
             exact
-            path="/beach-resort/rooms/:roomId"
+            path="/lemonpg/rooms/:roomId"
             render={props => (
               <SingleRoom {...props} rooms={this.state.myItems} />
             )}

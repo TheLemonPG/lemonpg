@@ -22,7 +22,7 @@ class SingleRoom extends Component {
         <Head
           title={room.fields.name}
           bg={room.fields.images[0].fields.file.url}
-          btn={<CustomButton txt="Back To Rooms" to="beach-resort/rooms" />}
+          btn={<CustomButton txt="Back To Rooms" to="lemonpg/rooms" />}
         />
         <div className="SR-imgs">
           <div className="container">

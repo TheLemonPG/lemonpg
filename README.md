@@ -1,6 +1,6 @@
 ### This is an online booking website I built in ReactJs<br>
 
-To visit the page click https://amro-kamal.github.io/beach-resort/
+To visit the page click https://amro-kamal.github.io/lemonpg/
 
 
 

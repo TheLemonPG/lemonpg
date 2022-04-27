@@ -16,17 +16,17 @@ const Footer = () => {
           <h2 className="text-center">
             {" "}
             {/* <FontAwesomeIcon icon={faLeaf} /> PLANT */}
-            Beach Resort
+            LemonPG
           </h2>
         </div>
         <div className=" d-flex justify-content-center">
           <p className="text-center">
             <FontAwesomeIcon icon={faMapMarkedAlt} />
-            Tourusim Business, 2nd Block, USA
+            Kota, Rajasthan
             <FontAwesomeIcon icon={faPhoneAlt} />
-            +2499000000000
+            9672920043
             <FontAwesomeIcon icon={faEnvelope} />
-            Example@gmail.com
+            support@lemonpg.com
           </p>
         </div>
       </div>

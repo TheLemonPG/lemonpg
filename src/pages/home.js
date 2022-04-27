@@ -14,12 +14,45 @@ const Home = ({ featuredRooms }) => {
   return (
     <div>
       <Head
-        title="Luxurious Rooms"
-        subtitle="Deluxe Rooms Starting at 299$"
+        title="Budget Friendly Rooms In Your City"
+        subtitle="Rooms Starting at Rs 3000"
         bg={defaultBog}
-        btn={<CustomButton txt="Our Rooms" to="beach-resort/rooms" />}
+        btn={<CustomButton txt="Our Rooms" to="lemonpg/rooms" />}
       />
 
+      
+
+      <div className="FR">
+        <div className="container">
+          <HeaderTile txt="Featured Rooms" />
+        </div>
+        <div className="container frcards">
+          {/* <Row>
+            <Col>
+              <RoomItem />
+            </Col>
+            <Col>
+              <RoomItem />
+            </Col>
+            <Col>
+              <RoomItem />
+            </Col>
+          </Row> */}
+          <div className="row justify-content-center">
+            {featuredRooms.map(room => {
+              return (
+                <RoomItem
+                  key={room.sys.id}
+                  img={room.fields.images[0].fields.file.url}
+                  price={room.fields.price}
+                  name={room.fields.name}
+                  roomId={"lemonpg/rooms/" + room.sys.id}
+                />
+              );
+            })}
+          </div>
+        </div>
+      </div>
       <div className="services">
         <div className="container">
           <HeaderTile txt="Services" />
@@ -52,38 +85,6 @@ const Home = ({ featuredRooms }) => {
                 />
               </Col>
             </Row>
-          </div>
-        </div>
-      </div>
-
-      <div className="FR">
-        <div className="container">
-          <HeaderTile txt="Featured Rooms" />
-        </div>
-        <div className="container frcards">
-          {/* <Row>
-            <Col>
-              <RoomItem />
-            </Col>
-            <Col>
-              <RoomItem />
-            </Col>
-            <Col>
-              <RoomItem />
-            </Col>
-          </Row> */}
-          <div className="row justify-content-center">
-            {featuredRooms.map(room => {
-              return (
-                <RoomItem
-                  key={room.sys.id}
-                  img={room.fields.images[0].fields.file.url}
-                  price={room.fields.price}
-                  name={room.fields.name}
-                  roomId={"beach-resort/rooms/" + room.sys.id}
-                />
-              );
-            })}
           </div>
         </div>
       </div>
